@@ -4,9 +4,7 @@ public class FirstClassForGit {
         System.out.println(sum(x));
     }
     public static int sum(int x){
-           x+=x;
+           x*=x;
            return x;
     }
-  //  System.out.println(x);
-
 }
